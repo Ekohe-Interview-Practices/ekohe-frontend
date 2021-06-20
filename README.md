@@ -1,27 +1,20 @@
 # EkoheBookshelf
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.5.
+## Get started
 
-## Development server
+- 📄 [Environment setup](docs/setup.md): Check the main environment setup steps to get started.
+- 📄 **[Guidelines and Architecture information](docs/adr/index.md)**: Check and record the list of relevant design decisions and other related information.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Dependencies
 
-## Code scaffolding
+- Angular 12
+- Angular material
+- ...
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## COMMENTS ABOUT THE ASSINGMET
 
-## Build
+- The app have a loading indicator at top, if you can't see it active network throttling on the browser.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Semantic HTML5 tags used for the content (main, footer, article, header, section, ...)
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Media queries should work as expected but their are simplified to a common suggestions for iPhone and iPads. The solution can be easly extended to cover with more presition more devices as in [Media Queries for Standard Devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/). For this demo only used the sizes on the sketch.
