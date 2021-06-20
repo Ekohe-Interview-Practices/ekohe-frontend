@@ -1,1 +1,39 @@
-<p>tv-shows works!</p>
+<p>Search for shows at TV Maze working sample 📺</p>
+
+<div class="form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Show topic</mat-label>
+    <input
+      matInput
+      placeholder="Ex. Batman"
+      [(ngModel)]="term"
+      (keyup.enter)="doSearch()"
+      [value]="term"
+    />
+  </mat-form-field>
+  <button mat-flat-button color="primary" (click)="doSearch()">Search</button>
+
+  <div *ngIf="!loading; else loadingTemplate" class="full-list">
+    <div *ngFor="let show of shows">
+      <div class="item-container">
+        <img
+          *ngIf="show.image && show.image.medium; else noImage"
+          [src]="show.image.medium"
+          width="123"
+          height="188"
+          alt="No picture place holder"
+        />
+        <h3><a href="{{ show.url }}">{{ show.name }}</a></h3>
+        <p [innerHTML]="show.summary"></p>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #loadingTemplate>
+    <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+  </ng-template>
+
+  <ng-template #noImage>
+    <img width="123" height="188" alt="No picture place holder" src="../../../assets/images/item-place-holder-no.png" />
+  </ng-template>
+</div>
