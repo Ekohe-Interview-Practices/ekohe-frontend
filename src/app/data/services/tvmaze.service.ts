@@ -6,7 +6,7 @@ import { TvmazeQueryResult } from '../types/tvmaze-results';
 
 @Injectable({ providedIn: 'root' })
 export class TvmazeService {
-  svcUrl = 'http://api.tvmaze.com/search/shows';
+  svcUrl = 'https://api.tvmaze.com/search/shows';
   httpHeader = {
     headers: new HttpHeaders({
       'Content-Type': 'application/json',
