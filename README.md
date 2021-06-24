@@ -1,5 +1,6 @@
 # EkoheBookshelf
 
+[🚀 **DEMO address** 🌐](https://ekohe-frontend.pages.dev/)
 ## Get started
 
 - 📄 [Environment setup](docs/setup.md): Check the main environment setup steps to get started.
