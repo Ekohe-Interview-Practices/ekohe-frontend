@@ -1,21 +1,23 @@
-# EkoheBookshelf
+- # EkoheBookshelf
 
-[🚀 **DEMO address** 🌐](https://ekohe-frontend.pages.dev/)
-## Get started
+  [🚀 **DEMO address** 🌐](https://ekohe-frontend.pages.dev/)
 
-- 📄 [Environment setup](docs/setup.md): Check the main environment setup steps to get started.
-- 📄 **[Guidelines and Architecture information](docs/adr/index.md)**: Check and record the list of relevant design decisions and other related information.
+  ## Get started
 
-## Dependencies
+  - 📄 [Environment setup](docs/setup.md): Check the main environment setup steps to get started.
+  - 📄 **[Guidelines and Architecture information](docs/adr/index.md)**: Check and record the list of relevant design decisions and other related information.
 
-- Angular 12
-- Angular material
-- ...
+  ## Dependencies
 
-## COMMENTS ABOUT THE ASSINGMET
+  - Angular 12
+  - Angular material
+  - ...
 
-- The app have a loading indicator at top, if you can't see it active network throttling on the browser.
+  ## COMMENTS ABOUT THE ASSIGNMENT
 
-- Semantic HTML5 tags used for the content (main, footer, article, header, section, ...)
+  - The app has a loading indicator at the top if you can't see it active network throttling on the browser.
 
-- Media queries should work as expected but their are simplified to a common suggestions for iPhone and iPads. The solution can be easly extended to cover with more presition more devices as in [Media Queries for Standard Devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/). For this demo only used the sizes on the sketch.
+  - Semantic HTML5 tags used for the content (main, footer, article, header, section, ...)
+
+  - Media queries should work as expected, but I simplified it to common suggestions for iPhone and iPads. I can modify the demo easily to cover more devices with more precision. [Media Queries for Standard Devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/). This demo only used the sizes on the sketch.
+
